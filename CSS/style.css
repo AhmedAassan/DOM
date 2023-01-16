@@ -1,0 +1,43 @@
+.img-caption
+{
+  left: 5%;
+  bottom: 15px;
+  background-color: white;
+  width: 90%;
+  border-radius: 3px;
+}
+.items
+{
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+#lightBoxContainer
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  background-color:rgba(0, 0, 0, 0.54);
+}
+#lightBoxContainer #lightBoxIitem
+{
+  width: 50%;
+  height: 500px;
+  background-image: url(../IMG/photo-1.jpg);
+  background-size: cover;
+}
+#lightBoxContainer #lightBoxIitem i 
+{
+  font-size: 1.4rem;
+  margin: 10px;
+  cursor: pointer;
+  color: #000;
+}
+#close
+{
+  position: absolute;
+  right:15px;
+  top: 10px;
+}
